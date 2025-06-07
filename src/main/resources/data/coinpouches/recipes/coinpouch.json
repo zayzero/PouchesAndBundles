@@ -1,0 +1,62 @@
+{
+"type": "forge:conditional",
+"recipes":[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "createdeco"
+            }
+        ],
+        "recipe": {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "pattern": [
+                "lls",
+                "lcl",
+                "lll"
+            ],
+            "key": {
+                "s": {
+                    "item": "minecraft:string"
+                },
+                "l": {
+                    "item": "minecraft:leather"
+                },
+                "c": [
+                    {
+                        "item": "createdeco:gold_coinstack"
+                    },
+                    {
+                        "item": "createdeco:netherite_coinstack"
+                    },
+                    {
+                        "item": "createdeco:iron_coinstack"
+                    },
+                    {
+                        "item": "createdeco:copper_coinstack"
+                    },
+                    {
+                        "item": "createdeco:brass_coinstack"
+                    },
+                    {
+                        "item": "createdeco:industrial_iron_coinstack"
+                    },
+                    {
+                        "item": "createdeco:zinc_coinstack"
+                    }
+                ]
+            },
+            "result": {
+                "type": "forge:nbt",
+                "item": "coinpouches:pouch",
+                "count": 1,
+                "data": 1,
+                "nbt": {
+                    "pouchid": "coinpouches:coinpouch"
+                }
+            }
+        }
+    }
+]
+}

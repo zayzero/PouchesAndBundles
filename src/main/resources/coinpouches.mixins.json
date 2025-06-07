@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.mcsweatshop.createdecopouches.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "coinpouches.refmap.json",
+  "minVersion": "0.8",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "priority": -100
+}

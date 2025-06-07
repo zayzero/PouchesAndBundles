@@ -1,0 +1,13 @@
+{
+  "color": {
+    "r": 120,
+    "g": 190,
+    "b": 191
+  },
+  "maxItems": -1,
+  "maxDifferentItems": 1,
+  "differentiateByNBT": false,
+  "whitelist": [],
+  "dropItems": false
+
+}
